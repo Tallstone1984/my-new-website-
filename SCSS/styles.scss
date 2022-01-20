@@ -1,0 +1,45 @@
+@import '_conf';
+@import '_btn';
+
+body {
+    background-color: #ffffff;
+    color: #fff;
+    margin: auto;
+}
+
+h1 {
+    font-family: $font-stack;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.logo {
+font-weight: bold;
+margin-left: 20px;
+}
+nav {
+    display: flex;
+    font-family: $font-stack;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $nav-color;
+    width: 100%;
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+    li {
+        margin: 5px;
+        a {
+            padding: 10px;
+            text-decoration: none;
+            color: $nav-font-color;
+            &hover {
+                color: darkorange;
+            }
+        }
+    }
+}
+}

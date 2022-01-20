@@ -1,0 +1,17 @@
+@import '_conf';
+
+.btn {
+    background-color: $btn-color;
+    color: $btn-font-hover-color;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 1.9rem;
+    font-family: $font-stack;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $btn-color-hover;
+        color: $btn-font-hover-color;
+        transform: $btn-transform;
+    }
+}
